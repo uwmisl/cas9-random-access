@@ -1,0 +1,2 @@
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  [bioparser::createParser] error: unable to open file /ssd1/home/kz9/cas9-random-access/consensus/temp/temp_dir53_g21//tmp1/54b547ef-63cc-4259-a2cd-32c79a13299d_consensus.fasta!

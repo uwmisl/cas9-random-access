@@ -1,0 +1,8 @@
+Running parameters:
+seqA: seq1.fasta
+seqB: seq2.fasta
+diag: false
+matrix: false
+penalty: 20
+out: /ssd1/home/kz9/cas9-random-access/consensus/temp/temp_dir159_g18//SW_PARSE.txt
+Took 71.42896ms to run.

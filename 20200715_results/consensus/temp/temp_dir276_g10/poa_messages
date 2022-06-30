@@ -1,0 +1,4 @@
+black_flag: BAD_DATA /ssd1/home/kz9/cas9-random-access/C3POa/bio-pipeline/poaV2/poa :v1.0.0 main.c $Revision: 1.2.2.9 $,251
+Error reading sequence file /ssd1/home/kz9/cas9-random-access/consensus/temp/temp_dir276_g10//tmp1/e44ca3bb-297f-4090-ba88-ec67e3c146ed_F.fasta.
+Exiting
+end_black_flag

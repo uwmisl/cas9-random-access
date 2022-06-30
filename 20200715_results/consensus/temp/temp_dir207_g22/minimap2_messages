@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.001*2.23] collected minimizers
+[M::mm_idx_gen::0.003*2.50] sorted minimizers
+[M::main::0.003*2.49] loaded/built the index for 2 target sequence(s)
+[M::mm_mapopt_update::0.003*2.44] mid_occ = 3
+[M::mm_idx_stat] kmer size: 15; skip: 5; is_hpc: 0; #seq: 2
+[M::mm_idx_stat::0.003*2.40] distinct minimizers: 86 (90.70% are singletons); average occurrences: 1.093; average spacing: 3.457
+[M::worker_pipeline::0.003*2.34] mapped 2 sequences
+[M::main] Version: 2.17-r954-dirty
+[M::main] CMD: /ssd1/home/kz9/cas9-random-access/C3POa/minimap2/minimap2 -x ava-ont /ssd1/home/kz9/cas9-random-access/consensus/temp/temp_dir207_g22//tmp1/83a95203-19ea-4286-a055-e3d4e0c40a5e_F.fasta /ssd1/home/kz9/cas9-random-access/consensus/temp/temp_dir207_g22//tmp1/83a95203-19ea-4286-a055-e3d4e0c40a5e_F.fasta
+[M::main] Real time: 0.004 sec; CPU: 0.009 sec; Peak RSS: 0.004 GB

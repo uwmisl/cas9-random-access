@@ -1,0 +1,7 @@
+[racon::Polisher::initialize] loaded target sequences 0.000075 s
+[racon::Polisher::initialize] loaded sequences 0.000046 s
+[racon::Polisher::initialize] loaded overlaps 0.000056 s
+[racon::Polisher::initialize] aligned overlaps 0.000143 s
+[racon::Polisher::initialize] transformed data into windows 0.000021 s
+[racon::Polisher::polish] generated consensus 0.004898 s
+[racon::Polisher::] total = 0.005341 s

@@ -17,7 +17,7 @@ from matplotlib import pyplot as plt
 
 date = "20200715"
 input_dir = "/[PATH]/cas9-random-access/%s_basecalled_reads" % date # absolute path of directory containing basecalled reads in fastq format
-output_dir = "/[PATH]/cas9-random-access" # absolute path of output directory
+output_dir = "/[PATH]/cas9-random-access/20200715_results" # absolute path of output directory
 nuc_mat = "/[PATH]/cas9-random-access/C3POa/NUC.4.4.mat"
 splint_seq = "splint_all.fasta"
 config = "C3POa/config.txt"
