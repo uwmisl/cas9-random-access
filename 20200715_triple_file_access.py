@@ -10,7 +10,7 @@ import pickle as pk
 from matplotlib import pyplot as plt
 
 
-# BEFORE RUNNING, replace `[PATH]` in the following cell AND in `./C3POa/config.txt` with the full path to the `cas9-random-access` cloned repo.
+# BEFORE RUNNING, replace `[PATH]` in the following cell AND in `./software/config.txt` with the full path to the `cas9-random-access` cloned repo.
 
 # In[2]:
 
@@ -18,9 +18,9 @@ from matplotlib import pyplot as plt
 date = "20200715"
 input_dir = "/[PATH]/cas9-random-access/%s_basecalled_reads" % date # absolute path of directory containing basecalled reads in fastq format
 output_dir = "/[PATH]/cas9-random-access/20200715_results" # absolute path of output directory
-nuc_mat = "/[PATH]/cas9-random-access/C3POa/NUC.4.4.mat"
+nuc_mat = "/[PATH]/cas9-random-access/software/NUC.4.4.mat"
 splint_seq = "splint_all.fasta"
-config = "C3POa/config.txt"
+config = "software/config.txt"
 
 
 # In[3]:
@@ -58,7 +58,7 @@ pre_length_cutoff = 100
 for fastq in os.listdir(input_dir):
     print(fastq)
     fastq = os.path.join(input_dir, fastq)
-    preprocess_cmd = "C3POa/C3POa_preprocessing.py -i %s -o %s -q %d -l %d -s %s -c %s" % (fastq, pre_dir, q_score, pre_length_cutoff, splint_seq, config)
+    preprocess_cmd = "software/C3POa_preprocessing.py -i %s -o %s -q %d -l %d -s %s -c %s" % (fastq, pre_dir, q_score, pre_length_cutoff, splint_seq, config)
     get_ipython().system('python3 {preprocess_cmd}')
     print()
 
@@ -114,7 +114,7 @@ for d in os.listdir(pre_dir):
                 os.makedirs(current_temp_dir)
             out_file = os.path.join(consensus_dir, "R2C2_consensus_g%02d.fasta" % (guide))
             partial_reads_file = os.path.join(consensus_dir, "R2C2_partial_reads_g%02d.fasta" % (guide))
-            process_cmd = "C3POa/C3POa.py -r %s -p %s -m %s -l %d -d %d -c %s -o %s -s %s" % (reads_file, current_temp_dir, nuc_mat, raw_seq_length_cutoff, peak_dist_cutoff, config, out_file, partial_reads_file)
+            process_cmd = "software/C3POa.py -r %s -p %s -m %s -l %d -d %d -c %s -o %s -s %s" % (reads_file, current_temp_dir, nuc_mat, raw_seq_length_cutoff, peak_dist_cutoff, config, out_file, partial_reads_file)
             get_ipython().system('python3 {process_cmd}')
 
 

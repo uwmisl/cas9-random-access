@@ -1,0 +1,6 @@
+poa	
+racon	
+gonk	
+minimap2	
+consensus	/[PATH]/cas9-random-access/software/consensus.py
+blat	/[PATH]/cas9-random-access/software/blat/blat/blat
