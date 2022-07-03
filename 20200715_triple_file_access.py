@@ -10,7 +10,7 @@ import pickle as pk
 from matplotlib import pyplot as plt
 
 
-# BEFORE RUNNING, replace `[PATH]` in the following cell AND in `./software/config.txt` with the full path to the `cas9-random-access` cloned repo.
+# BEFORE RUNNING, replace `[PATH]` in the following cell with the full path to the `cas9-random-access` cloned repo.
 
 # In[2]:
 
