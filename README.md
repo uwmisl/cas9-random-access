@@ -11,9 +11,9 @@ This code was developed and tested on Jupyter using Python 3.7.
 The following packages should be installed separately:
 - numpy (1.16.2)
 - matplotlib (2.2.4)
-- [poa v1.0.0 Revision: 1.2.2.9](https://github.com/tanghaibao/bio-pipeline)
+- [poa (1.0.0 revision: 1.2.2.9)](https://github.com/tanghaibao/bio-pipeline)
 - [gonk](https://github.com/rvolden/gonk)
-- [minimap2 2.7-r654](https://github.com/lh3/minimap2)
+- [minimap (2 2.7-r654)](https://github.com/lh3/minimap2)
 - [racon](https://github.com/isovic/racon)
 
 ## Installation Instructions
