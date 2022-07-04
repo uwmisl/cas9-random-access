@@ -4,7 +4,7 @@ This repository contains the data processing and analysis pipeline for random ac
 ## Included Packages
 Our data processing pipeline uses an adapted version of the [C3POa software package](https://github.com/rvolden/C3POa) associated with the publication https://www.pnas.org/doi/10.1073/pnas.1806447115. This is found in the `software` directory.
 
-In `software/blat`, this repository also includes a stand-alone version of the BLAT software from https://genome.ucsc.edu/cgi-bin/hgBlat. BLAT is called by C3POa to perform alignment. 
+In `software/blat`, a stand-alone version of the BLAT software from https://genome.ucsc.edu/cgi-bin/hgBlat is included. BLAT is called by C3POa to perform alignment. 
 
 ## Dependencies
 This code was developed and tested on Jupyter using Python 3.7.
